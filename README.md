@@ -1,2 +1,4 @@
-TO INSTALL - yarn install
-TO RUN - yarn run dev
+# TO INSTALL - 
+yarn install
+# TO RUN - 
+yarn run dev
