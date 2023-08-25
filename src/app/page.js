@@ -35,7 +35,7 @@ export default function Home() {
     } else {
       setshow(true);
     }
-    setTimeout(changeTheme, 1000);
+    setTimeout(changeTheme, 1300);
   };
 
   const changeTheme = () => {
@@ -112,7 +112,7 @@ export default function Home() {
         {show ? (
           <motion.div
             animate={{ y: move ? value : value }}
-            transition={{ type: "tween", duration: 1 }}
+            transition={{ type: "tween", duration: 1.5 }}
             onClick={() => setmove(!move)}
           ></motion.div>
         ) : null}
