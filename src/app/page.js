@@ -117,7 +117,7 @@ export default function Home() {
           ></motion.div>
         ) : null}
       </div>
-      <Typography variant="h1" mt={18} className={textTheme}>
+      <Typography variant="h1" mt={18} ml={15} className={textTheme}>
         {" "}
         Elevate your development with blockflow
       </Typography>
